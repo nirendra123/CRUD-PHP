@@ -1,0 +1,77 @@
+#main_title{
+  text-align: center;
+  background-color: #333;
+  color:#fff;
+  padding:20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.box1 h2{
+  float: left;
+}
+.box1 button{
+  float: right;
+}
+
+.container{
+  margin-top: 60px;
+
+}
+.box2{
+  margin:50px;
+
+ box-sizing: border-box;
+
+}
+.box2 table{
+  float: left;
+}
+.box2 button{
+  float: right;
+}
+
+/* Style the button */
+#modal-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the modal */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+/* Style the modal content */
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the close button */
+#modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
